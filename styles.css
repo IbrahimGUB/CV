@@ -29,7 +29,7 @@ body {
     display: flex;
     flex-direction: column;
     animation: fadeIn 1.5s ease-in-out;
-    text-align: justify; /* Justify text alignment for the container */
+    text-align: justify; /* Justified alignment for text */
 }
 
 /* Header Section */
@@ -58,7 +58,7 @@ body {
 
 .header .contact-info {
     flex: 1;
-    text-align: right;
+    text-align: right; /* Keep right-aligned */
     padding-left: 20px;
     opacity: 0;
     animation: slideInRight 1.5s forwards; /* Slide-in effect for contact info */
@@ -76,7 +76,6 @@ body {
     font-size: 1.1rem;
     color: #666;
     margin: 5px 0;
-    text-align: justify; /* Justify text alignment for header paragraphs */
 }
 
 .header a {
@@ -98,7 +97,6 @@ body {
     opacity: 0;
     animation: fadeIn 1.5s forwards;
     animation-delay: 1s; /* Delay animations for sections */
-    text-align: justify; /* Justify text alignment for sections */
 }
 
 .section h2 {
